@@ -19,4 +19,8 @@ h2{
 font-size: 18px;
 line-height: 1.44444;
   }
+  h2{
+    font-size: 50px;
+    letter-spacing: -0.04em;
+  }
 }
