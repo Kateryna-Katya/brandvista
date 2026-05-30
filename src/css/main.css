@@ -195,3 +195,48 @@ background: linear-gradient(135deg, rgba(0, 184, 255, 0.55) 0%, rgba(8, 15, 42, 
     width: 770px;
 }
 }
+/* Gameplay Overview */
+.gameplay-wrapper{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 30px;
+        width: 306px;
+        height: auto;
+background: linear-gradient(135deg, rgba(0, 184, 255, 0.55) 0%, rgba(8, 15, 42, 0.1) 100%);
+margin-left: auto;
+margin-right: auto;
+}
+.gameplay-wrapper h2{
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+.gameplay-text-wrapper{
+width: 288px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin-bottom: 20px;
+}
+@media only screen and (min-width: 1440px) {
+ .gameplay-wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: start;
+    width: 1258px;
+    padding-right: 33px;
+ }
+ .gameplay-container{
+width: 608px;
+ }
+ .gameplay-wrapper h2{
+    margin-top: 10px;
+    margin-bottom: 40px;
+ }
+ .gameplay-text-wrapper{
+width: 594px;
+margin-bottom: 0;
+
+ }
+}
